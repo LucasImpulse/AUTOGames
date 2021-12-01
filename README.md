@@ -4,3 +4,9 @@ AUTOGames' endgame is to be able to queue games across Steam, Epic Games, Origin
 For example: 2 games of 5 download first on Steam, only 1 game downloads on Origin, and then Steam continues.
 This allows better downloading as games can download one at a time without relying on the launcher's own schedulers.
 The audience intended is people with low bandwidth, which used to be me but no longer is.
+
+Windows compatible so far:
+  Queue games on Steam immediately.
+  Scan for games on Steam.
+
+Linux catching up, then development continues.
