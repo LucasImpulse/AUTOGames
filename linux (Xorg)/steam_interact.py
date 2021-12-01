@@ -269,7 +269,7 @@ def commandLineInterface():                                                     
 
     def menuOptions(menu, listGiven=None):                                                                      # Menu options function, can accept an integer for which function it should do, and a list can be passed if needed.
         if menu == 0:                                                                                            # This is the main menu.
-            print('''Welcome to AUTOGames' CLI for Steam! Here are your options:
+            print('''Welcome to AutoGAMES' CLI for Steam! Here are your options:
             1: Check what can be downloaded.
             2: (Create a schedule to) update games. NOTE: we must check the list first.
             3: Manage current schedules. (TBA - doesn't yet work)
