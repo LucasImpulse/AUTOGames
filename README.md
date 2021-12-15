@@ -10,3 +10,7 @@ Windows compatible so far:
   Scan for games on Steam.
 
 Linux catching up, then development continues.
+
+I recognise my program as a new category of program, Automated Download Manager (ADM), all download managers can be automated to help with their downloads, but those are with torrents and direct downloads. My program aims to interact directly with external interfaces automatically to throw all kinds of other downloads in there, and not just direct downloads from HTTPS or torrents.
+
+I want to add Steam first, completely finished, then I can add modules manually for other launchers, like an _origin_interact.py_ or _epic\_interact.py_ or _riot\_interact.py_.
