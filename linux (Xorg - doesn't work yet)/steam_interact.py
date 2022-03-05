@@ -284,7 +284,7 @@ def commandLineInterface():                                                     
                 else:
                     print("The program did not understand that response.\n")                                    # Asking user to try again.
         
-        if menu == 1 and listGiven == []:                                                                       # "Updating a game" menu.
+        if menu == 1:                                                                                            # "Updating a game" menu.
             print("Okay. Pick the first game you'd like to download.")                                          
             timeIsUp = False                                                                                    # Defining variables needed later. This one stops the program looping if the user doesn't want to add more games.
             listToProcess = listGiven                                                                           # Take the list given to work with.
@@ -332,7 +332,7 @@ def commandLineInterface():                                                     
                         print("Unrecognised input.")
                 if timeIsUp == True:                                                                                # exit loop, nest 1, if timeIsUp was set to True.
                     break
-            
+
             listProcessed.reverse()                                                                             # Invert the list, so that they will be queued properly in Steam.
             print("Games will be queued in 5 seconds.")
             time.sleep(5)                                                                                       # Ten second delay, lets user know.
@@ -340,8 +340,6 @@ def commandLineInterface():                                                     
             for i in listProcessed:                                                                             # For each game we want to update,
                 huntDownTheGame(listProcessed[queueCounter][1])                                                 # update in order given.
                 queueCounter += 1                                                                               # tick the queue counter.
-        else:
-            print("Oh, looks like the updates due is actually empty. Nothing to do!")
 
     def reCacheList():                                                                                          # Function for later.
             a1 = int(-1)                                                                                        # A counter integer.
